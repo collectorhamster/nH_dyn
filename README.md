@@ -15,4 +15,6 @@ Run "<mark>***Plot_Fig_transition.jl***</mark>" to get Figure 2. The inset figur
 
 
 ## Fig3
-### subfigure1
+The subfold subf*x* include raw data and related code for subfigure*x*. You can run "<mark>***Plot_Fig_hybrid.jl***</mark>" to get the final figure.
+
+#### subf1
