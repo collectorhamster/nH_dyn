@@ -12,3 +12,7 @@ This figure include Lyapunov exponents and spectrum as inset figures.
 Lyapunov exponents are calculated by “<mark>***HPC_Lyapunov.jl***</mark>”. Parallel computing is used to obtain these raw data. There are 2 sets of data for $g=0.3$ and $g=0.5$, respectively.
 
 Run "<mark>***Plot_Fig_transition.jl***</mark>" to get Figure 2. The inset figure of spectrum and related mobility edge are calculated directly in this file.
+
+
+## Fig3
+### subfigure1
