@@ -17,7 +17,7 @@ The subfold subf***x*** include raw data and related code for subfigure***x***. 
 #### subf1
 Run ["simulation_ODE.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig3_code/subf1/simulation_ODE.jl) to obtain data *"hybride_ts.csv"* and *"hybride_px.csv"*. They are the trajectory. This can be done on PC.
 #### subf2
-Run ["HPC_simu_dyn.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig3_code/subf2/HPC_simu_dyn.jl) to obtain data *"ts.csv"*, *"cx1.csv"*, *"cx2.csv"*, *"siga.csv"*. They present \overline{$x(t)$} and \overline{$\Delta x(t)$}. This calculation is suggested to be executed with Parallel computing.
+Run ["HPC_simu_dyn.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig3_code/subf2/HPC_simu_dyn.jl) to obtain data *"ts.csv"*, *"cx1.csv"*, *"cx2.csv"*, *"siga.csv"*. They present ensemble-averaged center of mass and ab- solute deviation. This calculation is suggested to be executed with Parallel computing.
 #### subf3
 Run ["HPC_Lyapunov.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig3_code/subf3/HPC_Lyapunov.jl) to obtain the Lyapunov exponent at one point on the complex plane. The full data *"Lyap_complex.csv"* should be calculated with Parallel computing.
 #### subf4
@@ -29,7 +29,7 @@ The subfold subf***x*** include raw data and related code for subfigure***x***. 
 #### subf1
 Run ["simulation_ODE.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig4_code/subf1/simulation_ODE.jl) to obtain data *"Anderson_ts.csv"* and *"Anderson_px.csv"*. They are the trajectory. This can be done on PC.
 #### subf2
-Run ["HPC_simu_dyn.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig4_code/subf2/HPC_simu_dyn.jl) to obtain data *"ts.csv"*, *"cx1.csv"*, *"cx2.csv"*, *"siga.csv"*. They present \overline{$x(t)$} and \overline{$\Delta x(t)$}. This calculation is suggested to be executed with Parallel computing.
+Run ["HPC_simu_dyn.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig4_code/subf2/HPC_simu_dyn.jl) to obtain data *"ts.csv"*, *"cx1.csv"*, *"cx2.csv"*, *"siga.csv"*. They present ensemble-averaged center of mass and ab- solute deviation. This calculation is suggested to be executed with Parallel computing.
 #### subf3
 Run ["HPC_Lyapunov.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig4_code/subf3/HPC_Lyapunov.jl) to obtain the Lyapunov exponent at one point on the complex plane. The full data *"Lyap_complex.csv"* should be calculated with Parallel computing.
 #### subf4
