@@ -11,27 +11,26 @@ Run [“HPC_Lyapunov.jl”](https://github.com/collectorhamster/nH_dyn/blob/main
 
 Run ["Plot_Fig_transition.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig2_code/Plot_Fig_transition.jl) to get Figure 2. The inset figure of spectrum and related mobility edge are calculated directly in this file.
 
-
 ## Fig3
 The subfold subf***x*** include raw data and related code for subfigure***x***. Some of them should be calculated with Parallel computing. You can run ["Plot_Fig_hybrid.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig3_code/Plot_Fig_hybrid.jl) to get the final figure directly.
 
 #### subf1
-Run ["simulation_ODE.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig3_code/subf1/simulation_ODE.jl) to obtain data "*hybride_ts.csv*" and *"hybride_px.csv"*. They are the trajectory. This can be done on PC.
+Run ["simulation_ODE.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig3_code/subf1/simulation_ODE.jl) to obtain data *"hybride_ts.csv"* and *"hybride_px.csv"*. They are the trajectory. This can be done on PC.
 #### subf2
 Run ["HPC_simu_dyn.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig3_code/subf2/HPC_simu_dyn.jl) to obtain data *"ts.csv"*, *"cx1.csv"*, *"cx2.csv"*, *"siga.csv"*. They present \overline{$x(t)$} and \overline{$\Delta x(t)$}. This calculation is suggested to be executed with Parallel computing.
 #### subf3
-Run "<mark>***HPC_Lyapunov.jl***</mark>" to obtain the Lyapunov exponent at one point on the complex plane. The full data "*Lyap_complex.csv*" should be calculated with Parallel computing.
+Run ["HPC_Lyapunov.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig3_code/subf3/HPC_Lyapunov.jl) to obtain the Lyapunov exponent at one point on the complex plane. The full data *"Lyap_complex.csv"* should be calculated with Parallel computing.
 #### subf4
-Run "<mark>***state_profile.jl***</mark>" to obtain data "*hybrid_state1.csv*" and "*hybrid_state2.csv*". They are the spatial profile of states. This can be done on PC.
+Run ["state_profile.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig3_code/subf4/State_profile.jl) to obtain data *"hybrid_state1.csv"* and *"hybrid_state2.csv"*. They are the spatial profile of states. This can be done on PC.
 
 ## Fig4
-The subfold subf*x* include raw data and related code for subfigure*x*. Some of them should be calculated with Parallel computing. You can run "<mark>***Plot_Fig_Anderson.jl***</mark>" to get the final figure directly.
+The subfold subf***x*** include raw data and related code for subfigure***x***. Some of them should be calculated with Parallel computing. You can run ["Plot_Fig_Anderson.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig4_code/Plot_Fig_Anderson.jl) to get the final figure directly.
 
 #### subf1
-Run "<mark>***simulation_ODE.jl***</mark>" to obtain data "*Anderson_ts.csv*" and "*Anderson_px.csv*". They are the trajectory. This can be done on PC.
+Run ["simulation_ODE.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig4_code/subf1/simulation_ODE.jl) to obtain data *"Anderson_ts.csv"* and *"Anderson_px.csv"*. They are the trajectory. This can be done on PC.
 #### subf2
-Run "<mark>***HPC_simu_dyn.jl***</mark>" to obtain data "*ts.csv*", "*cx1.csv*", "*cx2.csv*", "*siga.csv*". They present $\overline{x(t)}$ and $\overline{\Delta x(t)}$. This calculation is suggested to be executed with Parallel computing.
+Run ["HPC_simu_dyn.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig4_code/subf2/HPC_simu_dyn.jl) to obtain data *"ts.csv"*, *"cx1.csv"*, *"cx2.csv"*, *"siga.csv"*. They present \overline{$x(t)$} and \overline{$\Delta x(t)$}. This calculation is suggested to be executed with Parallel computing.
 #### subf3
-Run "<mark>***HPC_Lyapunov.jl***</mark>" to obtain the Lyapunov exponent at one point on the complex plane. The full data "*Lyap_complex.csv*" should be calculated with Parallel computing.
+Run ["HPC_Lyapunov.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig4_code/subf3/HPC_Lyapunov.jl) to obtain the Lyapunov exponent at one point on the complex plane. The full data *"Lyap_complex.csv"* should be calculated with Parallel computing.
 #### subf4
-Run "<mark>***state_profile.jl***</mark>" to obtain data "*Anderson_state1.csv*" and "*Anderson_state2.csv*". They are the spatial profile of states. This can be done on PC.
+Run ["state_profile.jl"](https://github.com/collectorhamster/nH_dyn/blob/main/Fig4_code/subf4/State_profile.jl) to obtain data *"Anderson_state1.csv"* and *"Anderson_state2.csv"*. They are the spatial profile of states. This can be done on PC.
