@@ -15,6 +15,9 @@ Run "<mark>***Plot_Fig_transition.jl***</mark>" to get Figure 2. The inset figur
 
 
 ## Fig3
-The subfold subf*x* include raw data and related code for subfigure*x*. You can run "<mark>***Plot_Fig_hybrid.jl***</mark>" to get the final figure.
+The subfold subf*x* include raw data and related code for subfigure*x*. Some of them should be calculated with Parallel computing. You can run "<mark>***Plot_Fig_hybrid.jl***</mark>" to get the final figure directly.
 
 #### subf1
+Run "<mark>***simulation_ODE.jl***</mark>" to obtain a trajectory. This can be done on PC.
+#### subf2
+Run "<mark>***HPC_simu_dyn.jl***</mark>" to obtain $\overline{x(t)}$ and $\overline{\Delta x(t)}$. This calculation is suggested to be executed with Parallel computing.
