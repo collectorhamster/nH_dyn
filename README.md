@@ -1,5 +1,6 @@
 # nH_dyn
 Raw data and code for "Spreading dynamics in the Hatano-Nelson model with disorder"
+[a](https://github.com/collectorhamster/nH_dyn/blob/main/Fig1_code.zip)
 
 ## Fig1
 Run “<mark>***HPC_simu_dyn.jl***</mark>” to obtain data “*ts.csv*" and "*cs.csv*". They are the trajectory for a specific $g$. Run this file with different parameters to get all the data.
