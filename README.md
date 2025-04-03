@@ -1,10 +1,8 @@
 # nH_dyn
 Raw data and code for "Spreading dynamics in the Hatano-Nelson model with disorder"
 
-<span style="color:blue">asdf</span>
-
 ## Fig1
-Run “<span style="color:blue">***HPC_simu_dyn.jl***</span>” to obtain data “*ts.csv*" and "*cs.csv*". They are the trajectory for a specific $g$. Run this file with different parameters to get the all the data.
+Run “<mark>***HPC_simu_dyn.jl***</mark>” to obtain data “*ts.csv*" and "*cs.csv*". They are the trajectory for a specific $g$. Run this file with different parameters to get the all the data.
 
 Run "<mark>***Plot_Fig_skin.jl***</mark>" to get Figure 1. The subfig $(b)$ is calculated directly in this file.
 
